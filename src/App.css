@@ -44,3 +44,10 @@
 .reverse {
   background-color: #00f;
 }
+
+.changing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
