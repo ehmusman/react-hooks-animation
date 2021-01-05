@@ -1,13 +1,9 @@
 import './App.css';
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import useWebAnimations from "@wellyshen/use-web-animations";
 
 function App() {
-  const element = useRef(null)
-  const [value, setValue] = useState(2.5)
-  const handleChange = (e) => {
-    setValue(e.target.value)
-  }
+
   const { ref, playState, getAnimation } = useWebAnimations({
     keyframes: [
       { transform: 'translate(0,0)' },
@@ -36,7 +32,6 @@ function App() {
         <button className="play" onClick={() => getAnimation().play()}>Play</button>
         <button className="pause" onClick={() => getAnimation().pause()}>Pause</button>
         <button className="reverse" onClick={() => getAnimation().reverse()}>Reverse</button>
-
       </div>
       <div className="target" ref={ref} >
         <div className="sub">
