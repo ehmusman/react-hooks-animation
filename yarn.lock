@@ -10743,6 +10743,11 @@ url@^0.11.0:
     punycode "1.3.2"
     querystring "0.2.0"
 
+use-web-animations@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/use-web-animations/-/use-web-animations-0.1.0.tgz#3e882ca9ef17cbdd6d688acab1bed3d9b13ab3c2"
+  integrity sha512-b6dgRlLHA6lxuwBD3bDeA9xlO95QhcvfMARoqEZ3Wmi9xZtS4waB9x9Q1wvZ6w/FPwnZJ+vjwQQIh9gT76xOpQ==
+
 use@^3.1.0:
   version "3.1.1"
   resolved "https://registry.yarnpkg.com/use/-/use-3.1.1.tgz#d50c8cac79a19fbc20f2911f56eb973f4e10070f"
