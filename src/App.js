@@ -6,8 +6,8 @@ function App() {
   const element = useRef(null)
   const [value, setValue] = useState(2.5)
   useEffect(() => {
-    getAnimation().playbackRate = value
-
+    // getAnimation().playbackRate = value
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [value])
   const handleChange = (e) => {
     setValue(e.target.value)
